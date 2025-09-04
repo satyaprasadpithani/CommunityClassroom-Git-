@@ -35,7 +35,7 @@ public class Number_Guessing_Game {
 				}
 				else if(guess>numtoguess)
 				{
-					trail--;
+					trail = trail-1;
 					System.out.printf("Number is below than "+guess+" And you have only %d chances buddy %n",trail);
 
 				}
